@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding:0;
+        margin:0;
+       }
+       nav{
+       background-color: rgb(7, 55, 76);
+        padding:12px;
+       } 
+       nav a{
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+    
+       }
+       nav a:hover{
+        background-color: rgb(209, 66, 66);
+        padding: 15px;
+       }
+
+.foot{
+        background-color: rgb(7, 55, 76);
+        padding:12px;
+        text-align: center;
+        color: antiquewhite;
+        font-size: larger;
+       }
+       .main{
+        display: flex;
+        justify-content: space-evenly;
+        border: 3px solid gray;
+        margin:3% 15%;
+        padding: 3%;
+        box-shadow: 10px 10px 16px grey;
+       }
+       .main:hover{
+        box-shadow: 10px 10px 16px rgb(185, 182, 182),-10px -10px 16px rgb(185, 182, 182);
+       }
+       .image img{
+        box-shadow: 5px 5px 3px grey,-5px -5px 3px grey;
+       };
+       
+       .main h3{
+        color: rgb(173, 50, 50);
+       }
+       .main span{
+        text-decoration:line-through ;
+       }
+       .main button{
+        background-color: rgb(209, 82, 82);
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 8px 7px;
+        font-size: 20px;
+       }
+       .main button:hover{
+        background-color: rgb(227, 97, 31);
+       }
+       .main h1{
+        font-size: 30px;
+       }
+       .main a{
+        text-decoration: none;
+        color: black;
+       }
+
+
+</style>
+<body>
+    <nav>
+        <a href="home.html" style="margin-right:40%;">AutoMob-Mechanics</a>
+        <a href="Services.html" style="margin-right:3%;">Services</a>
+        <a href="booking.html" style="margin-right:3%;">Booking</a>
+        <a href="home.html" style="margin-right:3%;"><i class="fa fa-envelope">contact@automob.co.in</i></a>
+        <a href="home.html" ><i class="fa fa-phone">999-999-9999</i></a>
+    </nav>
+
+    <section class="main">
+        <div class="image">
+            <img src="body-repair.jpg" height="430px" width="430px">
+        </div>
+        <div class="info">
+            <p>
+                <a href="Home.html">Home</a> /
+                <a href="Services.html">Services</a> /
+                Body Repair Service
+                
+            </p>
+            <br>
+            <br>
+
+            <h1>Body Repair Service</h1>
+            <br>
+            <h3>Save: 25%</h3>
+            <br>
+            <p>Paint scratches and dents degrades the appearance of ypur car?</p>
+            <P>Opt for AutoMob-Mechanic's repair service.</P>
+            <p>This services aims at:</p>
+            <br>
+            <ul>
+                <li>Car dent repair.</li>
+                <li>Car painting.</li>
+                <li>complete car body repair service.</li>
+            </ul>
+            <br>
+            <h4><strong>Offer Price:</strong><span>Rs.10500</span> Rs.7875</h4>
+            <br>
+            <br>
+            <button><a href="booking.html">Book Service</a></button>
+        </div>
+    </section>
+
+    <footer class="foot">
+        <p>Copyright &#169 2020 AutoMob-Mechanics.All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

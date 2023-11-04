@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding:0;
+        margin:0;
+       }
+       nav{
+       background-color: rgb(7, 55, 76);
+        padding:12px;
+       } 
+       nav a{
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+    
+       }
+       nav a:hover{
+        background-color: rgb(209, 66, 66);
+        padding: 15px;
+       }
+
+.foot{
+        background-color: rgb(7, 55, 76);
+        padding:12px;
+        text-align: center;
+        color: antiquewhite;
+        font-size: larger;
+       }
+       .main{
+        display: flex;
+        padding: 10px 10px;
+       }
+       .main span{
+        color: rgb(216, 83, 83);
+       }
+       .form{
+        padding: 2%;
+
+       }
+       .image{
+        padding: 7%;
+    
+       }
+       .form button{
+        padding: 4%;
+        text-align: center;
+        border-radius: 3px;
+       
+        border: 2px solid rgb(211, 42, 42);
+        background-color: rgb(224, 139, 139);
+       }
+       .form a{
+        text-decoration: none;
+        color: black;
+       }
+       .form button:hover{
+        background-color: rgb(23, 135, 127);
+       }
+       .main h1{
+        text-align: center;
+        text-decoration: underline rgb(24, 24, 108);
+       }
+</style>
+<body>
+    <nav>
+        <a href="home.html" style="margin-right:40%;">AutoMob-Mechanics</a>
+        <a href="Services.html" style="margin-right:3%;">Services</a>
+        <a href="booking.html" style="margin-right:3%;">Booking</a>
+        <a href="home.html" style="margin-right:3%;"><i class="fa fa-envelope">contact@automob.co.in</i></a>
+        <a href="home.html" ><i class="fa fa-phone">999-999-9999</i></a>
+    </nav>
+
+    <section class="main">
+        <h1>Book <span>Your</span> Service</h1>
+        <div class="form">
+            <br>
+            <br>
+            <label for="name">Name: <br></label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <br>
+            <br>
+            <label for="email">Email: <br></label>
+            <input type="email" id="email" placeholder="enter your email" required>
+            <br>
+            <br>
+            <label for="phone">Phone Number: </label>
+            <br>
+            <select name="number" id="phone" required>
+            <option value="+91">+91</option>
+            <option value="+61">+61</option>
+            <option value="+244">+244</option>
+            <option value="+213">+213</option>
+            </select>
+            <input type="tel" id="phone" required>
+            <br>
+            <br>
+            <label for="services">Select Services: <br></label>
+            <select name="services" id="services" required>
+                <option value="Preventive Maintenance Service">Preventive Maintenamce Service</option>
+                <option value="Body Repair Service">Body Repair Service</option>
+                <option value="Car Care Service">Car Care Service</option>
+            </select>
+            <br>
+            <br>
+            <label for="madeby">Car Make: <br></label>
+            <input type="datalist" id="madeby" required>
+            <br>
+            <br>
+            <label for="model">Car Model: <br></label>
+            <input type="text" id="model" required>
+            <br>
+            <br>
+            fuel type:
+            <input type="radio" name="radio" id="petrol" required>
+            <label for="petrol">petrol </label>
+            <input type="radio" name="radio" id="diesel" required>
+            <label for="diesel">diesel </label>
+            <input type="radio" name="radio" id="LPG" required>
+            <label for="LPG">LPG </label>
+            <input type="radio" name="radio" id="other" required>
+            <label for="other">other </label>
+            <br>
+            <br>
+            <label for="distance">Kilometers ran: <br></label>
+            <input type="number" id="distance" placeholder="_km" required>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button><a href="booking_success.html"> your Appointment</a></button>
+            <br>
+            <br>
+        </div>
+        <div class="image">
+            <img src="booking.jpg" height="400px" width="400px">
+        </div>
+    </section>
+
+    <footer class="foot">
+        <p>Copyright &#169 2020 AutoMob-Mechanics.All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

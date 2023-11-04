@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<style>
+ *{
+        padding:0;
+        margin:0;
+       }
+       nav{
+       background-color: rgb(7, 55, 76);
+        padding:12px;
+       } 
+       nav a{
+        color:white;
+        text-decoration: none;
+        font-size: 20px;
+    
+       }
+       nav a:hover{
+        background-color: rgb(209, 66, 66);
+        padding: 15px;
+       }
+
+.foot{
+        background-color: rgb(7, 55, 76);
+        padding:12px;
+        text-align: center;
+        color: antiquewhite;
+        font-size: larger;
+       }
+       .service{
+        display: flex;
+        justify-content: space-around;
+       }
+       .preventive{
+        border: 2px solid rgb(180, 175, 175) ;
+        border-radius: 2%;
+        text-align: center;
+        margin: 5% 0%;
+        box-shadow: 7px 7px 4px gray;
+        
+       }
+       .body-repair{
+        border: 2px solid rgb(180, 175, 175)  ;
+        border-radius: 2%;
+        text-align: center;
+        margin: 5% 0%;
+        box-shadow: 7px 7px 4px gray;
+        
+       }
+       .car-care{
+        border: 2px solid rgb(180, 175, 175) ;
+        border-radius: 2%;
+        text-align: center;
+        margin: 5% 0%;
+        box-shadow: 7px 7px 4px gray;
+        
+       }
+       .preventive:hover{
+        box-shadow: 10px 10px 16px gray , -10px -10px 16px grey;
+       }
+       .body-repair:hover{
+        box-shadow: 10px 10px 16px gray , -10px -10px 16px grey;
+       }
+       .car-care:hover{
+        box-shadow: 10px 10px 16px gray , -10px -10px 16px grey;
+       }
+
+       .main{
+        padding: 3px;
+        text-align: center;
+        font-size: 20px;
+       }
+       .main h2{
+        text-decoration: underline blue;
+        margin: 2%;
+       }
+       .main span{
+        color: rgb(209, 66, 66);
+       }
+       .preventive a{
+        text-decoration: none;
+        color: black;
+       }
+       .body-repair a{
+        text-decoration: none;
+        color: black;
+       }
+       .car-care a{
+        text-decoration: none;
+        color: black;
+       }
+      
+</style>
+<body>
+    <nav>
+        <a href="home.html" style="margin-right:40%;">AutoMob-Mechanics</a>
+        <a href="Services.html" style="margin-right:3%;">Services</a>
+        <a href="booking.html" style="margin-right:3%;">Booking</a>
+        <a href="home.html" style="margin-right:3%;"><i class="fa fa-envelope">contact@automob.co.in</i></a>
+        <a href="home.html" ><i class="fa fa-phone">999-999-9999</i></a>
+    </nav>
+
+    <section class="main">
+        <h2>Our <span>Services</span></h2>
+        <p>Our representatives are professionaly trained and skilled with latest and futuristic techniques to provide a best quality service.At AtuMob-Mechanic , we provide a high class service to the customers for their happy and memorable driving experience.</p>
+    
+    </section>
+
+    <section class="service">
+       
+        <div class="preventive">
+              <img src="preventive-card.jpg" height="350px" width="350px"></img>
+                    <h1><a href="Preventive_Maintanence.html">Preventive Maintanence</a></h1>
+                    <p>Periodically check and keep your car running.</p>
+        </div>
+        <div class="body-repair">
+            <img src="body-repair-card.jpg" height="350px" width="350px"></img>
+            <h1><a href="Body_repair_service.html">Body Repair</a></h1>
+            <p>Full basic body repair provided by the experts.</p>
+        </div>
+        <div class="car-care">
+            <img src="car-care-card.jpg" height="350px" width="350px"></img>
+            <h1><a href="car_care.html">Car Care</a></h1>
+            <p>Periodically check and keep your car running.</p>
+        </div>
+    </section>
+
+    <footer class="foot">
+        <p>Copyright &#169 2020 AutoMob-Mechanics.All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
